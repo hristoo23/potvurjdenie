@@ -154,7 +154,7 @@
         const plainFormData = Object.fromEntries(formData.entries());
         const formJSON = JSON.stringify(plainFormData);
 
-        const response = await fetch("https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbyZrcqYAOw1wLhhQ6M0O1slhlApqTLLqQY3R6jnvSaf0aUFiEbwFIGDbVRAG3zDqcYR/exec", {
             method: "POST",
             body: formData
         });
